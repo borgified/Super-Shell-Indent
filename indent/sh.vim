@@ -530,3 +530,6 @@ function! GetPairIndent(CurrLine, LastLine, LastLNum, Head, Mid, Tail)
     return adj
 
 endfunction
+set expandtab
+set shiftwidth=2
+set softtabstop=2
